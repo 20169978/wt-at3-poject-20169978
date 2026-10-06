@@ -1,3 +1,9 @@
+# ideas
+.idea/
+
+# evidence
+evidence/
+
 # Logs
 logs
 *.log
