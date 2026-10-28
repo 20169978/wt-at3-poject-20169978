@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #3A405A;
+    --text-on-primary: white;
+
+    --secondary-color: #FFB100;
+    --text-on-secondary: black;
+
+    --tertiary-color: #31AFD4;
+    --text-on-tertiary: white;
+
+    --fourth-color: #FF007F;
+    --text-on-fourth: white;
+}
