@@ -10,3 +10,8 @@ This repository contains web structure for at3 project of web technology class.
 | Turquoise Surf   | 49, 175, 212  | #31AFD4 |
 | Neon Pink   | 255, 177, 0  | #FF007F |
 | Amber Flame   | 255, 177, 0  | #FFB100 |
+
+
+### Credits
+Hamburger button menu Icon by Bytedance. 
+https://icon-icons.com/authors/995-bytedance-inc
