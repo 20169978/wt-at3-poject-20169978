@@ -13,5 +13,5 @@ This repository contains web structure for at3 project of web technology class.
 
 
 ### Credits
-Hamburger button menu Icon by Bytedance. 
-https://icon-icons.com/authors/995-bytedance-inc
+Google Font
+https://fonts.google.com/icons
