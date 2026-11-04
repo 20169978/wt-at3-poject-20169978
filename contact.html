@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/site.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+
+<body>
+    <nav>
+        <img class="hamburger_button" src="./assets/images/close_icon.png" alt="Hamburger menu button">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <section>
+            <img src="" alt="Site logo">
+            <h1>KohrinPortfolioSite</h1>
+        </section>
+        <img class="hamburger_button" src="assets/images/hamburger_menu.png" alt="Hamburger menu button">
+    </header>
+    <main>
+        <form id="contact-form">
+            <h1>Contact Me</h1>
+
+            <label for="name">Name:</label> <br>
+            <input type="text" id="name" name="name">
+            <p class="error-message" id="name-error"></p>
+
+            <label for="email">Email:</label> <br> 
+            <input type="email" id="email" name="email">
+            <p class="error-message" id="email-error"></p>
+
+            <label for="message">Message:</label> <br>
+            <textarea id="message" name="message"></textarea>
+            <p class="error-message" id="message-error"></p>
+
+            <button type="submit">Send</button>
+            <p class="success-message" id="success-message"></p>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Kohrin Suzuki. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="./assets/js/pages/contact.js"></script>
+</body>
+
+</html>
