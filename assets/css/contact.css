@@ -1,0 +1,125 @@
+@media(max-width: 768px) {
+    /*Mobile style */
+    form {
+        /* Color */
+        border: 5px solid var(--tertiary-color);
+        border-radius: 20px;
+
+        /* Size */
+        width: 100%;
+        max-width: 600px;
+        padding: 60px 50px;
+        margin: 10px;
+
+        /* Positioning */
+        align-self: center;
+
+        /* Content */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    form > h1 {
+        /* Color */
+        color: black;
+
+        /* Size */
+        font-size: 3rem;
+        padding: 0;
+        margin: 0;
+
+        /* Positioning */
+        align-self: center;
+
+        /* Content */
+    }
+
+    form > label {
+        /* Color */
+        color: black;
+
+        /* Size */
+        font-size: 1.5rem;
+        padding: 0;
+        margin: 0;
+
+        /* Positioning */
+
+        /* Content */
+    }
+
+    form > input, form > textarea {
+        /* Color */
+        background-color: var(--unfocused-color);
+        border: 1px solid var(--unfocused-color);
+        border-radius: 0px;
+
+        /* Size */
+        font-size: 1.5rem;
+
+        /* Positioning */
+
+        /* Content */
+    }
+
+    form > input:focus, form > textarea:focus {
+        /* Color */
+        background-color: white;
+        outline: 2px solid var(--fourth-color);
+        border-radius: 5px;
+
+        /* Size */
+
+        /* Positioning */
+
+        /* Content */
+    }
+
+    form > button {
+        /* Color */
+        background-color: var(--tertiary-color);
+        color: var(--text-on-tertiary);
+        border: 0;
+        border-radius: 5px;
+
+        /* Size */
+        font-size: 1.5rem;
+        padding: 10px 50px;
+
+        /* Positioning */
+        align-self: center;
+
+        /* Content */
+    }
+
+    form > p.error-message {
+        /* Color */
+        color: var(--error-color);
+
+        /* Size */
+        font-size: 1.25rem;
+        padding: 0;
+        margin: 0;
+
+        /* Positioning */
+
+        /* Content */
+    }
+
+    form>p.success-message {
+        /* Color */
+        color: var(--success-color);
+
+        /* Size */
+        font-size: 1.25rem;
+        padding: 0;
+        margin: 0;
+
+        /* Positioning */
+        align-self: center;
+
+        /* Content */
+    }
+}
