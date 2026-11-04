@@ -11,3 +11,79 @@
     --fourth-color: #FF007F;
     --text-on-fourth: white;
 }
+
+@media(max-width: 768px) {
+
+    /*Mobile style */
+    body {
+        /* Color */
+
+        /* Size */
+        margin: 0;
+    }
+
+    body>header {
+        /* Color */
+        background-color: var(--primary-color);
+        color: var(--text-on-primary);
+
+        /* Size */
+        height: 100px;
+        padding: 0 20px;
+
+        /* Positioning */
+        position: sticky;
+        top: 0;
+        z-index: 900;
+
+        /* Content */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hamburger_button {
+        /* Color */
+
+        /* Size */
+        height: 32px;
+        width: 32px;
+
+        /* Positioning */
+    }
+
+    body>nav {
+        /* Color */
+        background-color: var(--secondary-color);
+        color: var(--text-on-secondary);
+
+        /* Size */
+        height: 100%;
+        width: 40%;
+
+        /* Positioning */
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+    body>footer {
+        /* Color */
+        background-color: var(--primary-color);
+        color: var(--text-on-primary);
+
+        /* Size */
+        height: 60px;
+
+        /* Positioning */
+        bottom: 0;
+        z-index: 900;
+
+        /* Content */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
