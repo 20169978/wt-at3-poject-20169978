@@ -70,6 +70,46 @@ body>header {
     align-items: center;
 }
 
+body>header>section {
+    /* Color */
+
+    /* Size */
+    width: 100%;
+    max-width: 600px;
+
+    /* Positioning */
+
+    /* Content */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+body>header>section>img {
+    /* Color */
+
+    /* Size */
+    height: 80px;
+    width: auto;
+
+    /* Positioning */
+
+    /* Content */
+}
+body>header>section>h1 {
+    /* Color */
+
+    /* Size */
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+
+    /* Positioning */
+
+    /* Content */
+}
+
 .hamburger_button {
     /* Color */
 
@@ -150,6 +190,48 @@ body>footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    body>header>section {
+        /* Color */
+
+        /* Size */
+        width: 100%;
+        max-width: 600px;
+
+        /* Positioning */
+
+        /* Content */
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    body>header>section>img {
+        /* Color */
+
+        /* Size */
+        height: 64px;
+        width: auto;
+
+        /* Positioning */
+
+        /* Content */
+    }
+
+    body>header>section>h1 {
+        /* Color */
+
+        /* Size */
+        font-size: 2rem;
+        padding: 0;
+        margin: 0;
+
+        /* Positioning */
+
+        /* Content */
     }
 
     .hamburger_button {
