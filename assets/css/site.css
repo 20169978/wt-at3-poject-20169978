@@ -50,6 +50,9 @@
         width: 32px;
 
         /* Positioning */
+
+        /* Content */
+        cursor: pointer;
     }
 
     body>nav {
