@@ -13,7 +13,7 @@ if (projectsFigure) {
 const aboutMeFigure = document.getElementById('aboutme-figure');
 if (aboutMeFigure) {
     aboutMeFigure.addEventListener('click', () => {
-        window.location.href = 'aboutme.html';
+        window.location.href = 'about.html';
     });
 } else {
     console.error('About Me figure element not found.');
