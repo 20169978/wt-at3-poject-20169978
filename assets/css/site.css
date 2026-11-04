@@ -72,6 +72,10 @@
         z-index: 1000;
     }
 
+    nav.open {
+        display: block;
+    }
+
     body>footer {
         /* Color */
         background-color: var(--primary-color);
