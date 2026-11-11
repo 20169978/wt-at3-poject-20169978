@@ -1,4 +1,5 @@
 import "../components/hamburger.js";
+import "../components/logo.js";
 
 const projectsFigure = document.getElementById('projects-figure');
 

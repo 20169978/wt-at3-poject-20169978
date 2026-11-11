@@ -1,4 +1,4 @@
-const logoSection = document.querySelector("header section");
+const logoSection = document.querySelector(".logo");
 
 if (logoSection) {
     logoSection.addEventListener("click", () => {

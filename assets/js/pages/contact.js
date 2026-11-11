@@ -1,4 +1,5 @@
 import "../components/hamburger.js";
+import "../components/logo.js";
 
 function validateName(name) {
     const namePattern = /^[A-Za-z\s]{2,}$/;
