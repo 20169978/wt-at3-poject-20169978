@@ -1,0 +1,28 @@
+@media(max-width: 768px) {
+    /* Mobile */
+    main>img {
+        /* Color*/
+        border: 2px dotted var(--tertiary-color);
+
+        width: 100%;
+
+    }
+
+    #download-button {
+        /* Color */
+        background-color: var(--fourth-color);
+        color: var(--text-on-fourth);
+        border: 0;
+        border-radius: 5px;
+
+        /* Size */
+        font-size: 1.5rem;
+        margin: 10px 0;
+        padding: 10px 50px;
+
+        /* Positioning */
+        align-self: center;
+
+        /* Content */
+    }
+}
