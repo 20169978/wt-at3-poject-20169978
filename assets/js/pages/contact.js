@@ -18,6 +18,10 @@ function validateEmail(email) {
 }
 
 function validateMessage(message) {
+    const messagePattern = /^[A-Za-z0-9\s.,!?'"()-]{10,}$/;
+    if (!messagePattern.test(message)) {
+        return false;
+    }
     return message.trim() !== '';
 }
 
@@ -56,7 +60,7 @@ if (messageInput && messageError) {
         if (validateMessage(messageInput.value)) {
             messageError.textContent = '';
         } else {
-            messageError.textContent = 'Message is required.';
+            messageError.textContent = 'Message must be at least 10 characters long.';
         }
     });
 } else {
