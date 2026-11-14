@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Work</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/mywork.css">
+</head>
+
+<body>
+    <nav>
+        <img class="hamburger_button" src="./assets/images/close_icon.png" alt="Hamburger menu button">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <section class="logo">
+            <img src="./assets/images/logo.png" alt="Site logo">
+            <h1>KohrinPortfolioSite</h1>
+        </section>
+        <img class="hamburger_button" src="assets/images/hamburger_menu.png" alt="Hamburger menu button">
+    </header>
+    <main>
+        <article class="api-app">
+            <header>
+                <h2>Ninja API APP</h2>
+            </header>
+            <form action="#" method="post">
+                <fieldset>
+                    <h3>Pick from the following API's</h3>
+                    <div id="api-checkboxes">
+                        <label>
+                            <input type="checkbox" class="api-checkbox" id="sudoku" value="sudoku" checked />
+                            Sudoku
+                        </label>
+                        <label>
+                            <input type="checkbox" class="api-checkbox" id="cocktail" value="cocktail" />
+                            Cocktail
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset id="api-input-fieldset">
+                    <input type="text" id="api-input" placeholder="Enter your input here..." />
+                    <button type="submit" id="api-submit">Get Response</button>
+                </fieldset>
+                <fieldset>
+                    <h3>Here is the result!</h3>
+                    <div id="api-result">
+                        <p>
+                            Your result will appear here...
+                        </p>
+                    </div>
+            
+                    <template id="sudoku-template">
+                        <table class="sudoku-table">
+                            <tbody>
+                                <tr class="row" data-row="0">
+                                    <td class="cell" data-col="0"></td>
+                                    <td class="cell" data-col="1"></td>
+                                    <td class="cell" data-col="2"></td>
+                                    <td class="cell" data-col="3"></td>
+                                    <td class="cell" data-col="4"></td>
+                                    <td class="cell" data-col="5"></td>
+                                    <td class="cell" data-col="6"></td>
+                                    <td class="cell" data-col="7"></td>
+                                    <td class="cell" data-col="8"></td>
+                                </tr>
+                                <tr class="row" data-row="1">
+                                    <td class="cell" data-col="0"></td>
+                                    <td class="cell" data-col="1"></td>
+                                    <td class="cell" data-col="2"></td>
+                                    <td class="cell" data-col="3"></td>
+                                    <td class="cell" data-col="4"></td>
+                                    <td class="cell" data-col="5"></td>
+                                    <td class="cell" data-col="6"></td>
+                                    <td class="cell" data-col="7"></td>
+                                    <td class="cell" data-col="8"></td>
+                                </tr>
+                                <tr class="row" data-row="2">
+                                    <td class="cell" data-col="0"></td>
+                                    <td class="cell" data-col="1"></td>
+                                    <td class="cell" data-col="2"></td>
+                                    <td class="cell" data-col="3"></td>
+                                    <td class="cell" data-col="4"></td>
+                                    <td class="cell" data-col="5"></td>
+                                    <td class="cell" data-col="6"></td>
+                                    <td class="cell" data-col="7"></td>
+                                    <td class="cell" data-col="8"></td>
+                                </tr>
+                                <tr class="row" data-row="3">
+                                    <td class="cell" data-col="0"></td>
+                                    <td class="cell" data-col="1"></td>
+                                    <td class="cell" data-col="2"></td>
+                                    <td class="cell" data-col="3"></td>
+                                    <td class="cell" data-col="4"></td>
+                                    <td class="cell" data-col="5"></td>
+                                    <td class="cell" data-col="6"></td>
+                                    <td class="cell" data-col="7"></td>
+                                    <td class="cell" data-col="8"></td>
+                                </tr>
+                                <tr class="row" data-row="4">
+                                    <td class="cell" data-col="0"></td>
+                                    <td class="cell" data-col="1"></td>
+                                    <td class="cell" data-col="2"></td>
+                                    <td class="cell" data-col="3"></td>
+                                    <td class="cell" data-col="4"></td>
+                                    <td class="cell" data-col="5"></td>
+                                    <td class="cell" data-col="6"></td>
+                                    <td class="cell" data-col="7"></td>
+                                    <td class="cell" data-col="8"></td>
+                                </tr>
+                                <tr class="row" data-row="5">
+                                    <td class="cell" data-col="0"></td>
+                                    <td class="cell" data-col="1"></td>
+                                    <td class="cell" data-col="2"></td>
+                                    <td class="cell" data-col="3"></td>
+                                    <td class="cell" data-col="4"></td>
+                                    <td class="cell" data-col="5"></td>
+                                    <td class="cell" data-col="6"></td>
+                                    <td class="cell" data-col="7"></td>
+                                    <td class="cell" data-col="8"></td>
+                                </tr>
+                                <tr class="row" data-row="6">
+                                    <td class="cell" data-col="0"></td>
+                                    <td class="cell" data-col="1"></td>
+                                    <td class="cell" data-col="2"></td>
+                                    <td class="cell" data-col="3"></td>
+                                    <td class="cell" data-col="4"></td>
+                                    <td class="cell" data-col="5"></td>
+                                    <td class="cell" data-col="6"></td>
+                                    <td class="cell" data-col="7"></td>
+                                    <td class="cell" data-col="8"></td>
+                                </tr>
+                                <tr class="row" data-row="7">
+                                    <td class="cell" data-col="0"></td>
+                                    <td class="cell" data-col="1"></td>
+                                    <td class="cell" data-col="2"></td>
+                                    <td class="cell" data-col="3"></td>
+                                    <td class="cell" data-col="4"></td>
+                                    <td class="cell" data-col="5"></td>
+                                    <td class="cell" data-col="6"></td>
+                                    <td class="cell" data-col="7"></td>
+                                    <td class="cell" data-col="8"></td>
+                                </tr>
+                                <tr class="row" data-row="8">
+                                    <td class="cell" data-col="0"></td>
+                                    <td class="cell" data-col="1"></td>
+                                    <td class="cell" data-col="2"></td>
+                                    <td class="cell" data-col="3"></td>
+                                    <td class="cell" data-col="4"></td>
+                                    <td class="cell" data-col="5"></td>
+                                    <td class="cell" data-col="6"></td>
+                                    <td class="cell" data-col="7"></td>
+                                    <td class="cell" data-col="8"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+            
+                        <button class="get-sudoku-solution">Check Solution</button>
+            
+                        <p class="message"></p>
+                    </template>
+            
+                    <template id="sudoku-selectable-cell-template">
+                        <select class="cell-displayer selectable" data-solution="">
+                            <option selected value="0">?</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                    </template>
+            
+                    <template id="sudoku-filled-cell-template">
+                        <p class="cell-displayer filled"></p>
+                    </template>
+            
+                    <template id="cocktail-template">
+                        <section class="cocktail-section">
+                            <header>
+                                <h3 class="cocktail-name"></h3>
+                                <h4 class="cocktail-instructions"></h4>
+                            </header>
+                            <div class="cocktail-ingredients"></div>
+                        </section>
+                    </template>
+                </fieldset>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2026 Kohrin Suzuki. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="./assets/js/pages/mywork.js"></script>
+</body>
+
+</html>
