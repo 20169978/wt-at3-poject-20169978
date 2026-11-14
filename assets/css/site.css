@@ -586,6 +586,10 @@ video {
   width: auto;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .items-center {
   align-items: center;
 }
