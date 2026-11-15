@@ -108,7 +108,7 @@ async function CallSudokuAPI() {
   button.addEventListener("click", (e) => 
     {
       e.preventDefault();
-      DisplaySudokuSolution()});
+      DisplaySudokuSolution();});
 
   api_result_div.innerHTML = "";
   api_result_div.append(clone);
@@ -129,17 +129,17 @@ function DisplaySudokuSolution() {
       total += 1;
       cell.classList.add("answered");
 
-      if (answer.dataset["solution"] == parseInt(answer.value)) {
+      if (answer.dataset.solution == parseInt(answer.value)) {
         correct += 1;
         cell.classList.add("correct");
       } else {
         cell.classList.remove("correct");
       }      
     }
-  })
+  });
 
   const p = api_result_div.querySelector(".message");
-  p.innerText = `${correct / total == NaN ? 0 : Math.round(correct / total * 100)} % Correct`;
+  p.innerText = `${Number.isNaN(correct / total) ? 0 : Math.round(correct / total * 100)} % Correct`;
 }
 
 async function CallCocktailAPI() {

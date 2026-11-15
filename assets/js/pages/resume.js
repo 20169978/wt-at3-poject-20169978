@@ -5,7 +5,7 @@ const downloadButton = document.getElementById("download-button");
 if (downloadButton) {
     downloadButton.addEventListener("click", () => {
         downloadResume();
-    })
+    });
 } else {
     console.error("Download button not found in the DOM.");
 }
