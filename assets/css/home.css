@@ -89,7 +89,7 @@ figcaption {
     cursor: pointer;
 }
 
-#projects-figure>.view-area>h1 {
+#projects-figure>.view-area>h2 {
     /* Color */
     color: white;
 
@@ -138,7 +138,7 @@ figcaption {
     cursor: pointer;
 }
 
-#aboutme-figure>.view-area>h1 {
+#aboutme-figure>.view-area>h2 {
     /* Color */
     color: white;
 
@@ -228,7 +228,7 @@ ul>li>section>img {
     /* Content */
 }
 
-ul>li>section>h1 {
+ul>li>section>h3 {
     /* Color */
 
     /* Size */
@@ -329,7 +329,7 @@ ul>li>section>h1 {
         cursor: pointer;
     }
 
-    #projects-figure > .view-area > h1 {
+    #projects-figure > .view-area > h2 {
         /* Color */
         color: white;
 
@@ -381,7 +381,7 @@ ul>li>section>h1 {
         cursor: pointer;
     }
 
-    #aboutme-figure > .view-area > h1 {
+    #aboutme-figure > .view-area > h2 {
         /* Color */
         color: white;
 
@@ -470,7 +470,7 @@ ul>li>section>h1 {
         /* Content */
     }
 
-    ul > li > section > h1 {
+    ul > li > section > h3 {
         /* Color */
 
         /* Size */

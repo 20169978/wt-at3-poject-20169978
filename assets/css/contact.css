@@ -20,7 +20,7 @@ form {
     align-items: stretch;
 }
 
-form>h1 {
+form>h2 {
     /* Color */
     color: black;
 
@@ -149,7 +149,7 @@ form>p.success-message {
         align-items: stretch;
     }
 
-    form > h1 {
+    form > h2 {
         /* Color */
         color: black;
 
